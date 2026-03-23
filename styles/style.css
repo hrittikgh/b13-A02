@@ -337,7 +337,66 @@ p {
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
 }
+/* Featured Episodes related style */
+.Episodes{
+    background-color: #1A0B2E;
+}
+.Episodes-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.Episodes-titel{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.Featured-Episodes{
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.Episodes-card{
+    width: 380px;
+    height: 440px;
+    background-color: #1a0f2e;
+    border-radius: 16px;
+     color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.new-Episodes{
+    position: relative;
+    padding-top: 56.25%;
 
+}
+.new-Episodes iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ed-titel{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    max-width: 332px;
+    margin-left: 24px;
+    
+}
+.Episodes-description{
+    font-size: 1rem;
+    color: rgb(255, 255, 255, 0.5);
+    line-height: 24px;
+    max-width: 332px;
+    margin-left: 24px;
+    
+}
 /* responsive */
 @media screen and (max-width:576px) {
 
@@ -408,6 +467,11 @@ p {
         height: 300px;
         padding-left: 10px;
         margin: 0 auto;
+    }
+    .Featured-Episodes{
+       
+        flex-direction: column;
+        align-items: center;
     }
 
 
