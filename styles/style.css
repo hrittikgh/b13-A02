@@ -446,7 +446,50 @@ p {
        background: #533C72;
 
 }
+/* footer related style */
+.footer{
+    background-image: url("../assets/footer-bg.png");
+    width: 100%;
+     background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-container{
+    max-width: 1360px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.footer-titel{
+    font-weight: 900;
+    font-size: 5rem;
+    color: #ffffff;
+}
+.icon{
+    gap: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
 
+}
+.footer-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.icon-name{
+    font-size: 1rem;
+    color: rgb(255, 255, 255, 0.5);
+}
+.ending{
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgb(255, 255, 255, 0.5);
+
+}
 /* responsive */
 @media screen and (max-width:576px) {
 
@@ -532,7 +575,12 @@ p {
         align-items: center;
         justify-content: center;
     }
-    
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        gap: 20px;
+        
+    }
 
 
 }
